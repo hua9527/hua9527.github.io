@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>typora使用说明书</title>
+      <link href="posts/da2d354c/"/>
+      <url>posts/da2d354c/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="typora使用说明书"><a href="#typora使用说明书" class="headerlink" title="typora使用说明书"></a>typora使用说明书</h1><h2 id="1、多级标题"><a href="#1、多级标题" class="headerlink" title="1、多级标题"></a>1、多级标题</h2><p>通过#+空格的方式可以设置标题（markDown）</p><p>typora自带的快捷键ctrl+1～6 清楚ctrl+0</p><h2 id="2、有序列表"><a href="#2、有序列表" class="headerlink" title="2、有序列表"></a>2、有序列表</h2><p>markdown：</p><ol><li>快捷键1+.+空格，取消俩次回车或者按方向键</li><li>降级：tab 升级：tab+shift</li></ol><p>注：添加或者删除某一行，序号自动调整</p><p>typora：Ctrl+shift+【</p><p>问题：把大象放进冰箱里分几步</p><ol><li>打开冰箱    <ol><li>插电</li><li>开机</li><li>开门</li></ol></li><li>把大象放进去</li><li>关闭冰箱</li></ol><h2 id="3、无序列表"><a href="#3、无序列表" class="headerlink" title="3、无序列表"></a>3、无序列表</h2><p>markDown：</p><ol><li>*+空格或者-+空格</li><li>降级：ctrl+shift+】</li></ol><ul><li>青菜</li><li>水果<ol><li>苹果</li><li>梨子</li><li>菠萝<ul><li>国产菠萝</li><li>进口菠萝</li></ul></li></ol></li><li>肉</li></ul><h2 id="4、任务列表"><a href="#4、任务列表" class="headerlink" title="4、任务列表"></a>4、任务列表</h2><p>markDown：-+空格+【+空格+】+空格</p><ul><li><input checked="" disabled="" type="checkbox"> 引导学生重新审视笔记的价值</li><li><input checked="" disabled="" type="checkbox"> 讲解笔记的重要定位</li><li><input disabled="" type="checkbox"> 讲解优秀笔记的标准</li><li><input disabled="" type="checkbox"> 笔记的工具</li></ul><p>这是一个一级标题</p><h2 id="5、表格"><a href="#5、表格" class="headerlink" title="5、表格"></a>5、表格</h2><p>markDown：</p><ol><li>|学号|姓名|性别|年龄|+空格</li><li>ctrl+回车，加一行</li></ol><table><thead><tr><th align="center">学号</th><th align="center">姓名</th><th align="center">性别</th><th align="center">年龄</th></tr></thead><tbody><tr><td align="center">1111</td><td align="center">小花</td><td align="center">男</td><td align="center">23</td></tr><tr><td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table><h2 id="6、行内代码"><a href="#6、行内代码" class="headerlink" title="6、行内代码"></a>6、行内代码</h2><p>markDown：<code>行内代码</code></p><p>typora：ctrl+shift+`</p><p><code>java是一种面向对象的编程语言，不仅吸收了c++语言的各种优点，还摒弃了c++里面难以理解的多继承、指针等概念，因此java语言具有功能强大和简单易用俩个特性</code></p><h2 id="7、代码块"><a href="#7、代码块" class="headerlink" title="7、代码块"></a>7、代码块</h2><p>第一个java代码</p><p>typora：选中代码块然后ctrl+shift+k</p><p>public class HelloWorld{<br>    public static void main（String[] args）{<br>        System.out.println(“Hello World!!”);<br>    }<br>}</p><p>markDown：```java或者<del>~</del>java</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> main（String[] args）&#123;</span><br><span class="line">System.out.println(<span class="string">&quot;Hello World!!&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> main（String[] args）&#123;</span><br><span class="line">System.out.println(<span class="string">&quot;Hello World!!&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="8、插入图片"><a href="#8、插入图片" class="headerlink" title="8、插入图片"></a>8、插入图片</h2><p>markDown：!+[+]+(+)</p><p>typora:ctrl+shift+i</p><ol><li>下图为本地图片上传</li></ol><img src="D:\屏保\女神\1.jpg" style="zoom:25%;" /><ol start="2"><li>下图为七牛云上传图片</li></ol><img src="http://qgfk4q0iv.hd-bkt.clouddn.com/img1/1.jpg" style="zoom:25%;" />]]></content>
+      
+      
+      <categories>
+          
+          <category> typora教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的第一篇博客文章</title>
+      <link href="posts/b24dd347/"/>
+      <url>posts/b24dd347/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>内容</p><hr><p>##第二章</p><p>内容</p><hr><p>##参考文献</p><p><a href="http://www.baidu.com/">www.baidu.com</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 初始化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="posts/4a17b156/"/>
+      <url>posts/4a17b156/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 初始化 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
